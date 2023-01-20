@@ -280,10 +280,12 @@ server
 
 ## 四、其他配置：
 
-[文件存储配置](https://www.yuque.com/tduck/home/bezf05?view=doc_embed)[邮件/短信/公众号配置](https://www.yuque.com/tduck/home/mg3mqq?view=doc_embed)
+[文件存储配置](./fileConfigure)
+
+[邮件/短信/公众号配置](./othersConfigure)
 
 
 
 ## 五、常见问题：
 
-[TDUCK‘Pro常见问题](
+[TDUCK‘Pro常见问题](./proUsualQuestion)

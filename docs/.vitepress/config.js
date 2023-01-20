@@ -7,7 +7,7 @@ import proDeploy from "../proDeploy/proDeploy";
 export default {
     base: '/',
     title: '填鸭表单帮助中心', // 所有文档的浏览器标签title
-    description: '填鸭文档', // 会渲染成<meta>标签，SEO用
+    description: '免费问卷系统,免费表单系统,开源问卷系统,开源表单系统,调查问卷,数据收集,在线考试,工单系统,自定义流程,源码交付的TDUCK填鸭表单系统', // 会渲染成<meta>标签，SEO用
     head: [
         ['link', {rel: 'icon', href: '/public/favicon-blue.png'}],
         ['meta', {name: 'theme-color', content: '#1470d7'}],
@@ -15,11 +15,11 @@ export default {
     ],
     themeConfig: {
         siteTitle: '帮助中心',
-        logo: '/public/logo-blue.png',
+        logo: '/public/favicon-blue.png',
         nav: [
-            {text: '开源版', link: '/openSource/', activeMatch: '/openSource/'},
+            {text: 'Tduck开源版', link: '/openSource/', activeMatch: '/openSource/'},
             {
-                text: '🔥PRO版本',
+                text: '🔥TduckPro商业版',
                 items: [
                     {
                         text: '在线体验',
@@ -43,16 +43,20 @@ export default {
                     }
                 ]
             },
-            {text: 'TDUCK-Data', link: '/menu3/', activeMatch: '/menu3/'},
             {
-                text: '相关链接',
+                text: '开源地址',
                 items: [
                     {
-                        text: 'Vue3',
-                        link: 'https://cn.vuejs.org/'
+                        text: 'Gitee',
+                        link: 'https://gitee.com/TDuckApp/tduck-platform'
+                    },
+                    {
+                        text: 'Github',
+                        link: 'https://github.com/TDuckCloud/tduck-platform'
                     }
                 ]
             },
+            {text: '售前咨询', link: 'https://openai.weixin.qq.com/webapp/DVDIgC9Py9rIASfEVpzdcmrUUv56dB?robotName=TduckService', activeMatch: '#'},
         ],
         sidebar: {
             '/openSource/': openSource,
@@ -62,8 +66,8 @@ export default {
             '/proDeploy/': proDeploy
         },
         footer: {
-            message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2018-2022 -TDUCK 填鸭表单 '
+            message: '',
+            copyright: 'Copyright © 2018 - 2023 TDuckCloud. 湖南省众达数蔚信息技术有限公司-<a href="https://beian.miit.gov.cn/#/Integrated/index">湘ICP备19005498号-3</a> All Rights Reserved.填鸭表单版权所有'
         },
         algolia: {
             appId: 'C0XYPUDBSQ',

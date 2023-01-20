@@ -2,7 +2,7 @@ const commonPath = '/openSource';
 
 export default [
     {
-        text: '项目概要',
+        text: '项目引导',
         collapsible: true,
         collapsed: false,
         items: [

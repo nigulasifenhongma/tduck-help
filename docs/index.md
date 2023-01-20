@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: Tduck'help
-  text: 填鸭表单帮助中心
-  tagline: 自由拖拽 | 高级组件 | 持久更新
+  name: Tduck
+  text: 数据即时收集解决方案
+  tagline: 自定义、丰富组件、多应用场景、数据安全、持久更新
   image:
     src: /public/lion-image.png
     alt: tduck开源表单
@@ -13,28 +13,36 @@ hero:
       text: 开源版
       link: /openSource/
     - theme: brand
-      text: TDUCK'PRO 商业版
-      link: https://www.tduckcloud.com
+      text: 🔥TDUCK-PRO商业版
+      link: /buyPro/
+
+
 features:
   - icon: 
-    title: 好久不见
+    title: 🎁 官网地址
     link: https://www.tduckcloud.com
     details: 自由拖拽 | 高级组件 | 持久更新
   - icon: 
-    title: 更新日志
-    details: 自由拖拽 | 高级组件 | 持久更新
+    title: 🛒 拥有Pro
+    link: /buyPro/
+    details: 查看Pro购买步骤，快速入手
   - icon: 
-    title: 加入社区
-    details: 自由拖拽 | 高级组件 | 持久更新
+    title: 🎉 Bilibili频道
+    link: https://space.bilibili.com/409825300
+    details: 查看教程，快速入手
+  - icon: 
+    title: 🗒️ 鸭鸭留言板
+    link: https://pro.tduckcloud.com/s/Ddrg0pNo
+    details: 写下你想对鸭鸭说的话
   - icon:
-    title: 加入社区
-    details: 自由拖拽 | 高级组件 | 持久更新
+    title: 👨‍👦‍👦 加入社群
+    link: https://pro.tduckcloud.com/s/QUiDSKq8
+    details: 加入Tducker社群
   - icon:
-    title: 加入社区
-    details: 自由拖拽 | 高级组件 | 持久更新
-  - icon:
-    title: 加入社区
-    details: 自由拖拽 | 高级组件 | 持久更新
+    title: 🥰 2022总结
+    color: #456456
+    link: https://mp.weixin.qq.com/s/pFx_OB5MhqUrjdiwgoi0wg
+    details: 感谢有你 | 一路同行
 ---
 
 <style>

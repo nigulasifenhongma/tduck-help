@@ -10,13 +10,7 @@
 
 [开源版](https://demo.tduckapp.com) 经过了2年的优化后，功能趋于稳定； 2021年下半年推出了[tduck-Pro商业版](https://pro.tduckcloud.com)。
 
-<div style="text-align: left">
-<a href="https://www.tduckcloud.com" target="_blank">体验地址</a>&nbsp;
-<a href="#">部署文档</a>&nbsp;
-<a href="https://pro.tduckcloud.com/s/QUiDSKq8" target="_blank">微信社区</a>&nbsp;
-<a href="https://space.bilibili.com/409825300" target="_blank">Bilibili频道</a>
-</div>
-::: 
+:::
 ## Hot！社区活动👉获取开源版源码
 💥表单设计模块（v3分支）暂未开源，项目通过npm引用，不影响使用、二开其他功能。
 
@@ -62,5 +56,5 @@
 
 - [来看看TDUCK的新面孔](https://mp.weixin.qq.com/s/pLltfRv-KvStMxKefAvD_g)
 - [参与TDUCK项目，贡献一份力量！](https://gitee.com/TDuckApp/tduck-platform/issues/I4ZC6R)
-- [JAR包部署修改前端内容](https://www.yuque.com/mawuhui/kgacqz/zpubyn)
-- [宝塔Jar包部署如何指定配置文件](https://www.yuque.com/mawuhui/kgacqz/paqc6g)
+- [JAR包部署修改前端内容](./deploy/jarChange)
+- [宝塔Jar包部署如何指定配置文件](./deploy/startByProfile)

@@ -113,4 +113,4 @@ npm run build
 
 ## 常见问题：
 
-[TDUCK‘Pro常见问题](
+[TDUCK‘Pro常见问题](./proUsualQuestion)
