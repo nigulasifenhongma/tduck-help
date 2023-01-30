@@ -13,7 +13,7 @@ TDUCK-Uniapp是一款使用uniapp框架，支持多端运行，打包多端小�
 - 消息中心
 - 其他功能
   :::
-  [Pro和Uniapp有何区别？](https://www.yuque.com/tduck/home/rplhx0?view=doc_embed)
+  [Pro和Uniapp有何区别？](../functionDesc/index.html)
   <a name="JzKNT"></a>
 
 ## 最佳实践

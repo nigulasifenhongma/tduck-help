@@ -6,16 +6,25 @@ import proDeploy from "../proDeploy/proDeploy";
 
 export default {
     base: '/',
-    title: '填鸭表单帮助中心', // 所有文档的浏览器标签title
+    title: '帮助中心', // 所有文档的浏览器标签title
     description: '免费问卷系统,免费表单系统,开源问卷系统,开源表单系统,调查问卷,数据收集,在线考试,工单系统,自定义流程,源码交付的TDUCK填鸭表单系统', // 会渲染成<meta>标签，SEO用
     head: [
-        ['link', {rel: 'icon', href: '/public/favicon-blue.png'}],
+        ['script', {}, `
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?cd7cf52e13751144070b720c4738bea1";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+            `],
+        ['link', {rel: 'icon', href: 'https://oss.tduckcloud.com/favicon-blue.png'}],
         ['meta', {name: 'theme-color', content: '#1470d7'}],
         ['meta', {name: 'twitter:card', content: 'summary_large_image'}],
     ],
     themeConfig: {
-        siteTitle: '帮助中心',
-        logo: '/public/favicon-blue.png',
+        siteTitle: '填鸭表单帮助中心',
+        logo: 'https://oss.tduckcloud.com/favicon-blue.png',
         nav: [
             {text: 'Tduck开源版', link: '/openSource/', activeMatch: '/openSource/'},
             {
@@ -56,7 +65,11 @@ export default {
                     }
                 ]
             },
-            {text: '售前咨询', link: 'https://openai.weixin.qq.com/webapp/DVDIgC9Py9rIASfEVpzdcmrUUv56dB?robotName=TduckService', activeMatch: '#'},
+            {
+                text: '售前咨询',
+                link: 'https://openai.weixin.qq.com/webapp/DVDIgC9Py9rIASfEVpzdcmrUUv56dB?robotName=TduckService',
+                activeMatch: '#'
+            },
         ],
         sidebar: {
             '/openSource/': openSource,

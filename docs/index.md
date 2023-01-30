@@ -2,11 +2,11 @@
 layout: home
 
 hero:
-  name: Tduck
-  text: 数据即时收集解决方案
+  name: TDUCK
+  text: 填鸭表单帮助中心
   tagline: 自定义、丰富组件、多应用场景、数据安全、持久更新
   image:
-    src: /public/lion-image.png
+    src: https://oss.tduckcloud.com/202301201319762.png
     alt: tduck开源表单
   actions:
     - theme: alt
@@ -19,7 +19,7 @@ hero:
 
 features:
   - icon: 
-    title: 🎁 官网地址
+    title: 🎁 进入官网
     link: https://www.tduckcloud.com
     details: 自由拖拽 | 高级组件 | 持久更新
   - icon: 
@@ -29,7 +29,7 @@ features:
   - icon: 
     title: 🎉 Bilibili频道
     link: https://space.bilibili.com/409825300
-    details: 查看教程，快速入手
+    details: 查看教程，快速开始
   - icon: 
     title: 🗒️ 鸭鸭留言板
     link: https://pro.tduckcloud.com/s/Ddrg0pNo
@@ -54,3 +54,4 @@ features:
 }
 
 </style>
+

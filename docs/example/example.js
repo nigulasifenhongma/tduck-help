@@ -2,7 +2,7 @@ const commonPath = '/example';
 
 export default [
     {
-        text: '引导',
+        text: '最佳实践',
         collapsible: true,
         collapsed: false,
         items: [
@@ -15,8 +15,16 @@ export default [
             {text: '如何使用多渠道收集', link: `${commonPath}/multiChannel`},
             {text: '如何使用投票组件', link: `${commonPath}/voteScene`},
             {text: '公开查询进阶演示', link: `${commonPath}/publicQuery`},
-            {text: '如何关联用户角色', link: `${commonPath}/relationRole`},
+            {text: '表单如何关联用户角色', link: `${commonPath}/relationRole`},
             {text: '协同管理进阶演示', link: `${commonPath}/collaborativeManagement`},
+        ]
+    },
+    {
+        text: '快捷入口',
+        items: [
+            {text: '购买说明', link: `../buyPro/`},
+            {text: '功能说明', link: `../functionDesc/`},
+            {text: '部署说明', link: `../proDeploy/`},
         ]
     }
 ]

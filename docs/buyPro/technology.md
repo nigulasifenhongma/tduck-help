@@ -15,7 +15,7 @@
 | [Spring Security](https://github.com/spring-projects/spring-security) | Spring 安全框架 | 5.5.4 | [文档](http://www.iocoder.cn/Spring-Boot/Spring-Security/?yudao) |
 | [Hibernate Validator](https://github.com/hibernate/hibernate-validator) | 参数校验组件 | 6.2.0 | [文档](http://www.iocoder.cn/Spring-Boot/Validation/?yudao) |
 | [flowable](https://www.flowable.com/open-source) | 工作流引擎 | 6.0 | [文档](https://www.flowable.com/open-source) |
-| [~~Activiti~~](https://github.com/Activiti/Activiti)~~ 已弃用~~ | ~~工作流引擎~~ | ~~7.1.0.M6~~ | [文档](TODO) |
+| [~~Activiti~~](https://github.com/Activiti/Activiti)~~ 已弃用~~ | ~~工作流引擎~~ | ~~7.1.0.M6~~ | |
 | [Knife4j](https://gitee.com/xiaoym/knife4j) | Swagger 增强 UI 实现 | 3.0.2 | [文档](http://www.iocoder.cn/Spring-Boot/Swagger/?yudao) |
 | [Jackson](https://github.com/FasterXML/jackson) | JSON 工具库 | 2.12.6 |  |
 | [Lombok](https://projectlombok.org/) | 消除冗长的 Java 代码 | 1.16.14 | [文档](http://www.iocoder.cn/Spring-Boot/Lombok/?yudao) |
